@@ -1,0 +1,18 @@
+{
+  "name": "browser_transcribe",
+  "version": "1.0.0",
+  "description": "A transcription UI for transcribing audio and video files from scratch.",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/styles.css -o build/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.2",
+    "watch": "^1.0.2"
+  }
+}
